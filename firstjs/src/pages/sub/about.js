@@ -1,8 +1,8 @@
-export default function About() {
+export default function SubAbout() {
   return (
     <>
-      <h1>여기는 pages/sub/about.js</h1>
-      <a href="/">pages/index.js</a>
+      <h1>SubAbout</h1>
+      <a href="/">Home</a>
     </>
   );
 }

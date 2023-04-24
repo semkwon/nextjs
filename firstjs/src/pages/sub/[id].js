@@ -1,12 +1,14 @@
 import { useRouter } from "next/router";
 
-export default function About() {
+export default function IdAbout() {
   const router = useRouter();
   const id = Number(router.query.id);
+
   return (
     <>
-      <h1>여기는 pages/sub/[id].js : {id}</h1>
-      <a href="/">pages/index.js</a>
+      <h1>IdAbout</h1>
+      <p>{id}번 라우터</p>
+      <a href="/">Home</a>
     </>
   );
 }
